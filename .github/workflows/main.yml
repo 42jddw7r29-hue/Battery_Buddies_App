@@ -23,8 +23,6 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
-      - name: Fix Gradle Permissions
-        run: chmod +x gradlew
-
-      - name: Build APK Emergency Mode
-        run: ./gradlew assembleDebug --no-daemon --stacktrace
+      - name: Build with local gradle
+        run: |
+          gradle assembleDebug --stacktrace
