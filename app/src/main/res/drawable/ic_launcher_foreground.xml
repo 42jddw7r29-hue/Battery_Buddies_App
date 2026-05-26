@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Battery Shell with glowing cyan -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M40,32 H68 C70,32 72,34 72,36 V76 C72,78 70,80 68,80 H40 C38,80 36,78 36,76 V36 C36,34 38,32 40,32 Z" />
+    
+    <!-- Battery Cap -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M48,27 H60 V32 H48 Z" />
+        
+    <!-- Lightning bolt representing power matched energy -->
+    <path
+        android:fillColor="#D500F9"
+        android:pathData="M56,40 L44,56 H54 L52,72 L64,52 H54 L56,40 Z" />
+</vector>

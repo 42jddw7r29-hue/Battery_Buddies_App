@@ -1,0 +1,6 @@
+{
+  "name": "Battery Buddies",
+  "description": "منصة غرف دردشة سرية وعشوائية تعتمد على مواصفات جهازك الحقيقية والبطارية للدخول في تحديات غرف فريدة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
