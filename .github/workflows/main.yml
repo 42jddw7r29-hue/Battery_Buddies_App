@@ -21,8 +21,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
 
       - name: Decode Keystore
-        run: |
-          base64 -d debug.keystore.base64 > app/debug.keystore
+        run: base64 -d debug.keystore.base64 > debug.keystore
 
       - name: Build Debug APK
         run: gradle assembleDebug
